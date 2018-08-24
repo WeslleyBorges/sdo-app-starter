@@ -1,4 +1,4 @@
-# Meat - Angular App Starter
+# SDO - Angular App Starter
 
 ## 1. Passos para começar
 
@@ -140,7 +140,4 @@ Dependências dos pacotes que devem ficar em package.json:
   "typescript": "2.7.2",
   "webdriver-manager": "12.0.6"
 }
-```
-## Créditos
 
-Todas as imagens usadas na aplicação são pertencentes a freepik.com
