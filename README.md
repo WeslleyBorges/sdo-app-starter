@@ -1,5 +1,7 @@
 # SDO - Angular App Starter
 
+Aplicação ainda em fase inicial, onde boa parte de frontend foi desenvolvida.
+
 ## 1. Passos para começar
 
 ### Clonando o Repositório
