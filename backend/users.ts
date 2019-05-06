@@ -11,6 +11,6 @@ export class User{
 }
 
 export const users = {
-    "rsidrome@gmail.com": new User('rsidrome@gmail.com','Robervald','robervald'),
-    "sidrome2@yahoo.com.br": new User('sidrome2@yahoo.com.br','Robervald','robervald'),
+    "rsidrome@gmail.com": new User('rsidrome@gmail.com','Robervald','sidrome2'),
+    "sidrome2@yahoo.com.br": new User('sidrome2@yahoo.com.br','Robervald','sidrome2'),
 }

@@ -18,6 +18,12 @@ import { AvancoComponent } from './avanco/avanco.component';
 import { MateriaisComponent } from './materiais/materiais.component';
 import { FuncionarioComponent } from './funcionario/funcionario.component';
 import { LoginComponent } from './security/login/login.component';
+import { UserComponent } from './user/user.component';
+import { AddUserComponent } from './user/add-user.component';
+import { UserService } from './user/user.service';
+import { UserDetailComponent } from './header/user-detail/user-detail.component';
+import { LoginService } from './security/login/login.service';
+
 //import { NgxMaskModule } from 'ngx-mask';
 
 
@@ -33,6 +39,10 @@ import { LoginComponent } from './security/login/login.component';
     ObraComponent,
     ObraCustoComponent,
     MateriaisComponent,
+    UserComponent,
+    AddUserComponent,
+    UserDetailComponent,
+   // UserService,
     FuncionarioComponent,
     LoginComponent
   ],
@@ -44,7 +54,7 @@ import { LoginComponent } from './security/login/login.component';
     //NgxMaskModule.forRoot(),
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [ {provide: LOCALE_ID, useValue: 'pt-BR'}],
+  providers: [ {provide: LOCALE_ID, useValue: 'pt-BR'}, UserService, LoginService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

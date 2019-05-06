@@ -16,10 +16,10 @@
                 <span class="glyphicon glyphicon-wrench"></span>Obra</a>
               </li> 
               <li routerLinkActive="active"><a [routerLink]="['/materiais']">
-                <span class="glyphicon glyphicon-bed"></span>Materiais</a>
+                <span class="glyphicon glyphicon-retweet"></span>Materiais</a>
               </li>           
-              <li routerLinkActive="active"><a [routerLink]="['/restaurants']">
-                <span class="glyphicon glyphicon-credit-card"></span>Fake</a>
+              <li routerLinkActive="active"><a [routerLink]="['/usuario']">
+                <span class="glyphicon glyphicon-lock"></span>Usuário</a>
               </li>
               <li routerLinkActive="active"><a [routerLink]="['/avanco']">
                 <span class="glyphicon glyphicon-dashboard"></span>Avanço de Obras</a>
@@ -43,6 +43,8 @@
           </ul>
         </div>
         <!-- /.navbar-collapse -->
+
+        <mt-user-detail></mt-user-detail>
   
       </div>
     </nav>
